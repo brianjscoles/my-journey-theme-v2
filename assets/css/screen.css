@@ -49,7 +49,7 @@ Author: Dimitar Georgievski
 }
 
 /* Apply these base styles to all icons */
-.icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
+.icon, .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
     font-family: 'icons';
     speak: none;
     font-style: normal;
@@ -355,7 +355,7 @@ table.plain {
 
 /* Centres vertically yo. (IE8+) */
 .vertical {
-    background-color: white;
+    background-color: whitesmoke;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
     height: 58px;
@@ -380,7 +380,7 @@ table.plain {
     color: #fff;
     background: #7FC4DA no-repeat center center;
     background-size: cover;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid whitesmoke;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
 }
@@ -434,7 +434,7 @@ table.plain {
     position: relative;
     word-break: break-word;
     hyphens: auto;    
-    background-color:white; 
+    background-color:whitesmoke; 
     width: 28%; 
     min-height: 350px;
     height: 400px; 
@@ -562,7 +562,7 @@ table.plain {
     background-color: #7FC4DA;
     -webkit-box-shadow: 1px 2px 7px -2px rgba(0, 0, 0, 0.2);
     box-shadow: 1px 2px 7px -2px rgba(0, 0, 0, 0.2);
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     
 }
 .newsDate.inlineBox {
@@ -572,7 +572,7 @@ table.plain {
 	margin:0 auto;
 	font-size:1.4em;
 	line-height:1.2em;
-	color:white !important;
+	color:whitesmoke !important;
 }
 .newsDate span {
 	width:100%;
@@ -581,7 +581,7 @@ table.plain {
 	display:block;
 	font-size:small;
 	text-transform:uppercase;
-	color:white
+	color:whitesmoke
 }
 .button-rounded {
     width:32px;
@@ -612,7 +612,7 @@ table.plain {
     font-size: 1.8rem;
 	display: inline-block;
 	margin: 1.4rem 0.1rem 1.6rem 0;
-	color: white;
+	color: whitesmoke;
 	background-color: #ddd;
 	padding: 7px;
 	
@@ -620,7 +620,7 @@ table.plain {
 }
 
 .share-top a:hover {
-   	color: white;
+   	color: whitesmoke;
 	background-color: #7FC4DA;
 	transition: 0.2s ease-in;
 	-moz-transition: 0.2s ease-in;
@@ -677,7 +677,7 @@ table.plain {
     height: 60px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.8);
-    border: 3px solid white;
+    border: 3px solid whitesmoke;
     float: left;
     margin-right: 10px;
     margin-top: -12px;
@@ -729,7 +729,7 @@ table.plain {
     background-color: #7FC4DA;
     -webkit-box-shadow: 1px 2px 7px -2px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 2px 7px -2px rgba(0, 0, 0, 0.3);
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     
 }
 .post-newsDate.inlineBox {
@@ -739,7 +739,7 @@ table.plain {
 	margin:0 auto;
 	font-size:2.5em;
 	line-height:1em;
-	color:white !important;
+	color:whitesmoke !important;
 }
 .post-newsDate span {
 	width:100%;
@@ -748,7 +748,7 @@ table.plain {
 	display:block;
 	font-size:large;
 	text-transform:uppercase;
-	color:white
+	color:whitesmoke
 }
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services

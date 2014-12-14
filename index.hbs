@@ -5,6 +5,7 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <div class="vertical">
         <div id="site-head-content" class="inner">
 
@@ -13,17 +14,14 @@
             <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
         <section class="share-top">
-                <a class="icon-twitter" href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
+                <a class="icon" href="https://www.github.com/brianjscoles" ;return false;">
+                    <span class="fa fa-github fa-lg"></span>
+                </a>                
+                <a class="icon" href="https://www.linkedin.com/in/brianscoles" ;return false;">
+                    <span class="fa fa-linkedin fa-lg"></span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    <span class="hidden">Google+</span>
+                <a class="icon" href="https://facebook.com/brianscoles";return false;">
+                    <span class="fa fa-facebook fa-lg"></span>
                 </a>
             </section>
     </div>
