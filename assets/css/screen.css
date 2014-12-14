@@ -636,7 +636,7 @@ table.plain {
 .post-template .post {
     margin: 20px auto !important;
     padding-bottom: 0;
-    width:80%;
+    width:66%;
     float: none;
     height:auto
 }
@@ -654,7 +654,7 @@ table.plain {
 .post-content img {
     display: block;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     height:auto
 }
 
