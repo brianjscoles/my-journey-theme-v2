@@ -355,7 +355,7 @@ table.plain {
 
 /* Centres vertically yo. (IE8+) */
 .vertical {
-    background-color: #d0d0d0;
+    background-color: rgba(200,200,200,.7);
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
     height: 58px;
@@ -619,15 +619,15 @@ table.plain {
 	display: inline-block;
 	margin: 1.4rem 0.1rem 1.6rem 0;
 	color: whitesmoke;
-	background-color: #ddd;
+	background-color: #7FC4DA;
 	padding: 7px;
 	
 	
 }
 
 .share-top a:hover {
-   	color: whitesmoke;
-	background-color: #7FC4DA;
+   	color: darkgray;
+	background-color: white;
 	transition: 0.2s ease-in;
 	-moz-transition: 0.2s ease-in;
 	-webkit-transition: 0.2s ease-in;
