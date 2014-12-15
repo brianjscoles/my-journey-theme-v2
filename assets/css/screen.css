@@ -660,8 +660,8 @@ table.plain {
 .post-content img {
     display: block;
     margin: 0 auto;
-    width: 70%;
-    height:auto
+    max-width: 70%;
+    max-height:700px
 }
 
 
